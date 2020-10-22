@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Josefin+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+#head-one{
+    width:100%;
+    height:80px;
+    background:rgb(37, 36, 36);
+    color: #fff;
+    display:flex;
+    align-items:center;
+}
+#row-1{
+    width:40%;
+}
+#row-1 label{
+    font-size: 24px;
+    margin-left: 100px;
+    font-family: 'Chilanka', cursive;
+    font-weight: bolder;
+}
+#row-1, #row-2, #row-2 nav ul li{
+    float: left;
+}
+#row-2{
+    width: 60%;
+}
+#head-one nav ul{
+    list-style-type:none;
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+.f{
+    margin-right:15px;
+}
+.f a{
+    text-decoration: none;
+    color: rgba(190, 190, 190, 0.842);
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.f a:hover{
+    color: #fff;
+}
+.fr{
+    padding: 5px 10px;
+    background:rgb(80, 80, 80);
+    margin-left: 10px;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    cursor: pointer;
+}
+.fr:hover{
+    background:rgb(41, 196, 11);
+    color: #000000;
+}
+.fr i{
+    margin:0 6px;
+}
+/* ---------- Start Article -------------*/
+#art-one{
+    width:100%;
+    height:520px;
+    background:url('../img/\(6\).jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#art-one section{
+    width: 80%;
+    height: 520px;
+    margin:0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+#art-one section h1, #art-one section p, .scts{
+    width: 100%;
+    height:80px;
+}
+#art-one section p{
+    color: #fff;
+}
+#art-one section h1{
+    font-size: 54px;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.scts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.scts select {
+    width: 230px;
+    height: 33px;
+    /* text-align: center; */
+    padding: 0 0 0 12px;
+    border: 1px solid #fff;
+    outline: none;
+    background: rgba(255, 255, 255, 0.6);
+}
+.scts button{
+    width: 230px;
+    height: 33px;
+    background: rgba(22, 115, 255, 0.904);
+    color: #fff;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+}
+/* --------------- End Articl 1 -------------- */
+/* -------------- Start Articl 2 ------------- */
+#art-two{
+    width:100%;
+}
+.sct-1{
+    width:90%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.row{
+    width: 35%;
+}
+.row h2{
+    text-align: center;
+}
+.mon{
+    width:100%;
+    height: 200px;
+}
+.mon-one {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+.p{border-bottom: 1px solid #000000;}
+.p:last-child{border: none;}
+.fow {
+    float: left;
+    width: 100px;
+}
+.pow{
+    float: left;
+    width: 240px;
+}
+.tip{
+    width: 100%;
+    height: 200px;
+    background:url('../img/\(5\).jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    align-items:flex-end;
+}
+.pap{
+    width: 100%;
+    height: 50px;
+}
+.tip p{
+    color: #ffffff;
+    padding: 0 0 0 10px;
+    font-weight: 700;
+    width: 190px;
+    float: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.tip p:last-child{
+    text-align: end;
+    color: #ffffff;
+}
+.tip-1{
+    width: 100%;
+    height: 200px;
+}
+.tow{
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+.head-four{
+    width:100px;
+    height: 40px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin:10px auto;
+}
+.head-four i{
+    margin-right:3px;
+}
+.head-five{
+    width: 100%;
+    height: 30px;
+    margin-top:15px;
+}
+.g {
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid; */
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+.gr{
+    background:rgb(17, 202, 17);
+    color: #fff;
+}
+.gy{
+    background:rgb(226, 226, 226);
+}
+.tb{
+    width: 100%;
+    height: 84px;
+}
+table{
+    color: #000;
+    font-size: 14px;
+    margin: 20px auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+table .th{
+    float: left;
+    margin-right: 10px;
+}
+table .td{
+    float: right;
+}
+.viv{
+    height: 180px;
+    display: flex;
+    align-items: flex-end;
+}
+.v{
+    width: 80%;
+    margin: 0 auto;
+}
+.v button{
+    width: 100%;
+    height:40px;
+    background: rgb(97, 97, 255);
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    /* ---------- */
+    outline: none;
+    border:none;
+    cursor: pointer;
+    /* ----------- */
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+}
