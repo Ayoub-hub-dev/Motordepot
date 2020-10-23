@@ -15,13 +15,18 @@ button{
     border: none;
     cursor: pointer;
 }
+#head-one, #head-one nav ul, .scts, .mon-one, .head-four, .n, .hed, .fow{
+    display:flex;
+    align-items:center;
+}
+#art-one section, .sct-1, .g, .v, .noo, .pow, .cen{
+    margin:0 auto;
+}   
 /* ---------------------------------------------------- */
 #head-one{
     height:80px;
     background:rgb(37, 36, 36);
     color: #fff;
-    display:flex;
-    align-items:center;
 }
 #row-1{
     width:40%;
@@ -41,8 +46,6 @@ button{
 #head-one nav ul{
     list-style-type:none;
     height: 28px;
-    display: flex;
-    align-items: center;
 }
 .f{
     margin-right:15px;
@@ -76,7 +79,6 @@ button{
 }
 /* ---------- Start Article -------------*/
 #art-one{
-    /* width:100%; */
     height:520px;
     background:url('../img/\(6\).jpg') no-repeat;
     background-position: center;
@@ -85,7 +87,6 @@ button{
 #art-one section{
     width: 80%;
     height: 520px;
-    margin:0 auto;
     padding: 100px 0;
     text-align: center;
 }
@@ -101,8 +102,6 @@ button{
     font-family: 'Josefin Sans', sans-serif;
 }
 .scts {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 .scts select {
@@ -123,16 +122,17 @@ button{
 }
 /* --------------- End Articl 1 -------------- */
 /* -------------- Start Articl 2 ------------- */
+    /* ---------- Start Section 1 -------- */
 .sct-1{
-    margin: 0 auto;
     display:flex;
     justify-content: space-between;
-    /* background-color: rgb(235, 235, 235); */
+    height: 730px;
+    background:rgb(224, 224, 224);
 }
 .bor{
     height: 600px;
-    border:1px solid #fff;
     border: 1px solid rgb(235, 235, 235);
+    background-color: #fff;
 }
 .row{
     width: 30%;
@@ -141,13 +141,8 @@ button{
 .row h2{
     text-align: center;
 }
-.mon{
+.mon, .mon-one, .tip{
     height: 200px;
-}
-.mon-one {
-    height: 200px;
-    display: flex;
-    align-items: center;
 }
 .p{
     border-bottom: 1px solid rgb(235, 235, 235);
@@ -156,13 +151,13 @@ button{
 .fow {
     float: left;
     width: 100px;
+    justify-content: center;
 }
 .pow{
     float: left;
     width: 240px;
 }
 .tip{
-    height: 200px;
     margin-top:15px;
     background:url('../img/\(5\).jpg') no-repeat;
     background-position: center;
@@ -195,8 +190,6 @@ button{
 }
 .head-four{
     height: 40px;
-    display:flex;
-    align-items:center;
     justify-content: center;
     text-align: center;
     margin:10px auto;
@@ -212,7 +205,6 @@ button{
     width: 90%;
     height: 30px;
     line-height: 30px;
-    margin: 0 auto;
     text-align: center;
     border-radius:5px;
     -webkit-border-radius:5px;
@@ -248,7 +240,6 @@ table .td{
 }
 .v{
     width: 80%;
-    margin: 0 auto;
 }
 .v button{
     height:40px;
@@ -259,15 +250,13 @@ table .td{
     -webkit-border-radius:8px;
     -moz-border-radius:8px;
 }
-.no {
+.no, .noo button{
     height: 37px;
 }
 .noo {
     width: 80%;
-    margin: 0 auto;
 }
 .noo button {
-    height: 37px;
     margin-top:15px;
     background: rgb(97, 97, 255);
     color: #ffffff;
@@ -282,14 +271,9 @@ table .td{
     border-bottom: 1px solid rgb(235, 235, 235);
     margin-top:10px;
 }
-.pow{
-    margin: 0 auto;
-}
 .n{
     float: left;
     height: 172px;
-    display: flex;
-    align-items: center;
     justify-content: center;
 }
 .pow-one{
@@ -299,14 +283,16 @@ table .td{
     width: 60%;
 }
 .hed {
-    height: 60px;
-    display: flex;
-    align-items: center;
+    height: 80px;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
 }
 .cen {
     width: 90%;
-    margin: 0 auto;
     height: 600px;
+}
+    /* ---------- End Section 1 -------- */
+    /* ---------- Start Section 2 -------- */
+.sct-2{
+    width: 100%;
 }
