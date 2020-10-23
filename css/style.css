@@ -125,16 +125,13 @@
     margin: 0 auto;
     display:flex;
     justify-content: space-between;
-    background-color: rgb(235, 235, 235);
+    /* background-color: rgb(235, 235, 235); */
 }
 .bor{
     width: 100%;
     height: 600px;
     border:1px solid #fff;
-    background-color: #fff;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
+    border: 1px solid rgb(235, 235, 235);
 }
 .row{
     width: 30%;
@@ -153,7 +150,9 @@
     display: flex;
     align-items: center;
 }
-.p{border-bottom: 1px solid #000000;}
+.p{
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
 .p:last-child{border: none;}
 .fow {
     float: left;
@@ -166,6 +165,7 @@
 .tip{
     width: 100%;
     height: 200px;
+    margin-top:15px;
     background:url('../img/\(5\).jpg') no-repeat;
     background-position: center;
     background-size: cover;
@@ -238,8 +238,8 @@
 }
 table{
     color: #000;
-    font-size: 14px;
-    margin: 20px auto;
+    font-size: 13px;
+    margin: 20px 0;
     font-family: 'Josefin Sans', sans-serif;
 }
 table .th{
@@ -284,6 +284,7 @@ table .td{
 .noo button {
     width: 100%;
     height: 37px;
+    margin-top:15px;
     /* ------------- */
     outline: none;
     border: none;
@@ -300,13 +301,12 @@ table .td{
 .im img{
     width:100%;
     height: 381px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(235, 235, 235);
     margin-top:10px;
 }
 .pow{
     width:100%;
     margin: 0 auto;
-    height: 172px;
 }
 .n{
     float: left;
@@ -328,4 +328,9 @@ table .td{
     align-items: center;
     justify-content: center;
     font-family: 'Josefin Sans', sans-serif;
+}
+.cen {
+    width: 90%;
+    margin: 0 auto;
+    height: 600px;
 }
