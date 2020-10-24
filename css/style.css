@@ -175,7 +175,7 @@ a{
     color: #ffffff;
     padding: 0 0 0 10px;
     font-weight: 700;
-    width: 190px;
+    width: 168px;
     float: left;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -306,7 +306,7 @@ table .td{
 }
 .sct-cont{
     width: 100%;
-    height: 700px;
+    height: 300px;
 }
 .sct-cont-2{
     width: 80%;
@@ -345,4 +345,124 @@ table .td{
     font-size: 13px;
     color: rgb(4, 175, 4);
 }
-/* you can contuneu here */
+.sct-foot{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.sct-foot button{
+    width: 300px;
+    margin:0 auto;
+    height: 42px;
+    background: rgb(97, 97, 255);
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.add{
+    width: 100%;
+    margin-top:40px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 10px;
+}
+    /* ---------- End Section 2 -------- */
+    /* ---------- Start Section 3 -------- */
+.sct-3{
+    width: 100%;
+    margin-top: 100px;
+    height: 700px;
+}
+.sct-3-one{
+    width: 100%;
+    height: 506px;
+}
+.sct-3-two{
+    width: 50%;
+    height: 506px;
+    float: left;
+    color: #ffffff;
+}
+.bc{
+    background:url('../img/\(8\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bm img{
+    width: 100%;
+}
+.bc .para {
+    width: 70%;
+    height: 50%;
+    padding: 0 20px;
+    margin: 0px auto 0;
+    display: grid;
+    align-items: center;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.para-ul {
+    width: 100%;
+    height: 50%;
+    padding-top: 40px;
+    line-height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.para-ul .ul-one{
+    width:50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.ul-one ul{
+    list-style-type: none;
+}
+.sct-4-two{
+    width: 100%;
+}
+.sct-4-head {
+    width: 100%;
+    height: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 100px;
+    text-align: center;
+}
+.sct-4-cnt{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sct-4-cnt-one{
+    width: 70%;
+    margin: 20px auto;
+    height: 350px;
+    border:1px solid rgb(235, 235, 235);
+}
+.sct-4-cnt-one-lf{
+    width: 40%;
+    height: 350px;
+    float: left;
+}
+.sct-4-cnt-one-ri {
+    width: 52%;
+    height: 277px;
+    float: right;
+    padding: 37px;
+}
+.sct-4-cnt-one-ri h2{
+    height: 60px;
+    line-height: 60px;
+}
+.sct-4-foot {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sct-4-foot-btn button {
+    height: 40px;
+    width: 300px;
+    background: rgb(97, 97, 255);
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
