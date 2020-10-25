@@ -106,7 +106,7 @@ a{
 }
 .scts {
     justify-content: space-around;
-}
+} /*------*/
 .scts select {
     width: 230px;
     height: 33px;
