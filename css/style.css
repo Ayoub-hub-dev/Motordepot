@@ -7,7 +7,11 @@
 /* --------------------------------------------------- */
 #head-one, #art-one, #art-one section h1, #art-one section p, .scts, #art-two, 
 .sct-1, .bor, .mon, .mon-one, .tip, .pap, .tip-1, .head-four, .head-five, .v button, .tb, 
-.no, .noo button, .im, .hed, .pow, .im img{
+.no, .noo button, .im, .hed, .pow, .im img, .sct-5, footer, .two-6, .sct-6, .one-6,
+.sct5-im,  .sct5-im img, .st5-cn, .sct-5-one-cnt, .sct-5-one > div > h2, 
+.sct-4-head, .sct-4-cnt, .sct-4-foot, .sct-4-two, .add, .sct-3, .sct-3-one, .bm img,
+.para-ul, .para-ul .ul-one, .im img, .sct-2, .sct-head, .sct-cont, .head-sct,
+.centr-sct, .fot-sct, .sct-foot{
     width: 100%;
 }
 button{
@@ -106,7 +110,7 @@ a{
 }
 .scts {
     justify-content: space-around;
-} /*------*/
+}
 .scts select {
     width: 230px;
     height: 33px;
@@ -266,7 +270,7 @@ table .td{
     height: 390px;
 }
 .im img{
-    width:100%;
+    /* width:100%; */
     height: 381px;
     border-bottom: 1px solid rgb(235, 235, 235);
     margin-top:10px;
@@ -294,10 +298,10 @@ table .td{
     /* ---------- End Section 1 -------- */
     /* ---------- Start Section 2 -------- */
 .sct-2{
-    width: 100%;
+    /* width: 100%; */
 }
 .sct-head{
-    width: 100%;
+    /* width: 100%; */
     height: 100px;
     display:flex;
     align-items: center;
@@ -305,7 +309,7 @@ table .td{
     font-family: 'Josefin Sans', sans-serif;
 }
 .sct-cont{
-    width: 100%;
+    /* width: 100%; */
     height: 300px;
 }
 .sct-cont-2{
@@ -322,7 +326,7 @@ table .td{
     border:1px  solid rgb(235, 235, 235);
 }
 .head-sct, .centr-sct, .fot-sct{
-    width: 100%;
+    /* width: 100%; */
     font-family: 'Josefin Sans', sans-serif;
 }
 .head-sct {
@@ -346,7 +350,7 @@ table .td{
     color: rgb(4, 175, 4);
 }
 .sct-foot{
-    width: 100%;
+    /* width: 100%; */
     display:flex;
     justify-content: center;
 }
@@ -359,7 +363,7 @@ table .td{
     font-family: 'Josefin Sans', sans-serif;
 }
 .add{
-    width: 100%;
+    /* width: 100%; */
     margin-top:40px;
     text-align: center;
     font-family: verdana;
@@ -368,12 +372,12 @@ table .td{
     /* ---------- End Section 2 -------- */
     /* ---------- Start Section 3 -------- */
 .sct-3{
-    width: 100%;
+    /* width: 100%; */
     margin-top: 100px;
     height: 1943px;
 }
 .sct-3-one{
-    width: 100%;
+    /* width: 100%; */
     height: 506px;
 }
 .sct-3-two{
@@ -389,7 +393,7 @@ table .td{
     background-size: cover;
 }
 .bm img{
-    width: 100%;
+    /* width: 100%; */
 }
 .bc .para {
     width: 70%;
@@ -401,8 +405,8 @@ table .td{
     font-size: 17px;
     font-family: 'Josefin Sans', sans-serif;
 }
-.para-ul {
-    width: 100%;
+.para-ul{
+    /* width: 100%; */
     height: 50%;
     padding-top: 40px;
     line-height: 30px;
@@ -410,7 +414,7 @@ table .td{
 }
 .para-ul .ul-one{
     width:50%;
-    height: 100%;
+    /* height: 100%; */
     float: left;
     text-align: center;
 }
@@ -418,17 +422,17 @@ table .td{
     list-style-type: none;
 }
 .sct-4-two{
-    width: 100%;
+    /* width: 100%; */ 
 }
-.sct-4-head {
-    width: 100%;
+.sct-4-head{
+    /* width: 100%; */
     height: 100px;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 100px;
     text-align: center;
 }
 .sct-4-cnt{
-    width: 100%;
+    /* width: 100%; */
     font-family: 'Josefin Sans', sans-serif;
 }
 .sct-4-cnt-one{
@@ -453,7 +457,7 @@ table .td{
     line-height: 60px;
 }
 .sct-4-foot {
-    width: 100%;
+    /* width: 100%; */
     height: 200px;
     display: flex;
     align-items: center;
@@ -474,7 +478,7 @@ table .td{
     /* ---------- End Section 3 -------- */
     /* ---------- Start Section 5 ------ */
 .sct-5{
-    width: 100%;
+    /* width: 100%; */
 }
 .sct-5-one{
     width: 90%;
@@ -482,7 +486,7 @@ table .td{
     border-top: 2px solid rgb(235, 235, 235);
 }
 .sct-5-one > div > h2{
-    width: 100%;
+    /* width: 100%; */
     height: 100px;
     margin: 0 auto;
     text-align: center;
@@ -490,11 +494,11 @@ table .td{
     font-family: 'Josefin Sans', sans-serif;
 }
 .sct-5-one-cnt{
-    width: 100%;
+    /* width: 100%; */
     font-family: 'Josefin Sans', sans-serif;
 }
 .st5-cn{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
@@ -505,7 +509,7 @@ table .td{
     border:1px solid rgb(235, 235, 235);
 }
 .sct5-im,  .sct5-im img{
-    width: 100%;
+    /* width: 100%; */
     height: 200px;
 }
 .bl{
@@ -519,11 +523,11 @@ table .td{
     /* ---------- End Section 5 -------- */
     /* ---------- Start Section 6 ------ */
 .sct-6{
-    width: 100%;
+    /* width: 100%; */
     height: 400px;
 }
 .one-6{
-    width: 100%;
+    /* width: 100%; */
     height: 300px;
     background: url('../img/\(22\).jpg');
     background-position: center;
@@ -534,7 +538,7 @@ table .td{
     color: #fff;
 }
 .two-6{
-    width: 100%;
+    /* width: 100%; */
     height: 100px;
     background-color: rgb(44, 44, 44);
     display: flex;
@@ -569,7 +573,7 @@ table .td{
 }
 /* ---------FOOTER----------- */
 footer{
-    width: 100%;
+    /* width: 100%; */
     height: 620px;
     background: url('../img/FOTT.jpg');
     background-repeat: no-repeat;
