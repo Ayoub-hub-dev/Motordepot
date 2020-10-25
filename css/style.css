@@ -567,4 +567,58 @@ table .td{
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
 }
-
+/* ---------FOOTER----------- */
+footer{
+    width: 100%;
+    height: 620px;
+    background: url('../img/FOTT.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.foot-one{
+    width: 80%;
+    margin: 0 auto;
+}
+.ft-on{
+    width: 40%;
+    /* height: 620px; */
+    float: left;
+    padding:20px;
+}
+.ft-tw{
+    width: 50%;
+    float: left;
+    padding:20px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    color: rgb(184, 184, 184);
+}
+.he{
+    height: 26px;
+    line-height: 26px;
+}
+.clr{
+    color: #ffffff;
+}
+footer table a{
+    color: #ffffff;
+}
+.ft-on h2, .ft-tw h2{
+    height: 47px;
+    line-height: 47px;
+}
+footer table{
+    width: 100%;
+}
+footer table tr td{
+    margin-right: 20px;
+}
+footer table tr{
+    height: 20px;
+}
