@@ -394,6 +394,7 @@ table .td{
 }
 .bm img{
     /* width: 100%; */
+    heigth:100%;
 }
 .bc .para {
     width: 70%;
@@ -442,7 +443,7 @@ table .td{
     border:1px solid rgb(235, 235, 235);
 }
 .sct-4-cnt-one-lf{
-    width: 40%;
+    width: 39%;
     height: 350px;
     float: left;
 }
